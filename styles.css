@@ -6,25 +6,41 @@ body{
 
 .header-container{
     border: 3px solid blue;
-    height: 100px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header{
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px
 }
 
 .info-container{
     border: 3px solid red;
-    height: 100px;
+    height: 150px;
 }
 
 .quote-container{
     border: 3px solid green;
-    height: 100px;
+    height: 150px;
 }
 
 .sign-up-container{
     border: 3px solid purple;
-    height: 100px;
+    height: 150px;
 }
 
 .footer-container{
     border: 3px solid black;
-    height: 100px;
+    height: 50px;
 }
