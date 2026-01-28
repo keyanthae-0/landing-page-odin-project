@@ -134,20 +134,36 @@ ul{
 }
 
 /* info edits end here */
+/* quote edits start here */
 
 .quote-container{
-    border: 3px solid green;
-    height: 500px;
+    height: auto;
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
 }
+
+.quote-content-container{
+    height: auto;
+    width: 80%;
+}
+
+.quote-content{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* Quote edits end here*/
 
 .sign-up-container{
     border: 3px solid purple;
-    height: 500px;
+    height: 350px;
 }
 
 .footer-container{
     border: 3px solid black;
-    height: 500px;
+    height: 80px;
     background-color: #1F2937;
 }
